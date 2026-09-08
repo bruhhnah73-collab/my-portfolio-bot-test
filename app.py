@@ -77,7 +77,7 @@ def chat(request: ChatRequest):
             }
         ],
         temperature=0.6,
-        max_completion_tokens=1024,
+        max_completion_tokens=300,
     )
 
     response = completion.choices[0].message.content
