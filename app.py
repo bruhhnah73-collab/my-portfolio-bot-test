@@ -79,6 +79,21 @@ API Streams
 A dedicated showcase website featuring my projects
 and development work.
 
+8. 🌦️ Weather Dashboard - 2026
+A real-time weather dashboard built using HTML, CSS, and JavaScript.
+It uses the free Open-Meteo API to search for cities and display
+current weather information including temperature, humidity, wind,
+weather conditions, and icons.
+
+It also provides a 7-day weather forecast with daily high and low
+temperatures and rain probability.
+
+The dashboard includes a Light/Dark Mode toggle and remembers the
+user's selected mode using localStorage.
+
+The project was built to practice frontend web development,
+working with APIs, asynchronous JavaScript, and Git/version control.
+
 When talking about my projects:
 
 - Explain them clearly and naturally.
@@ -130,3 +145,4 @@ def chat(request: ChatRequest):
     return {
         "response": response
     }
+    
